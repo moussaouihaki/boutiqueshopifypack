@@ -122,7 +122,7 @@ export default function Home() {
             <p>Le moyen le plus intelligent de lancer votre boutique en 2025.</p>
           </div>
 
-          <div className="comparison-container glass-panel" style={{ padding: 0, overflow: 'hidden' }}>
+          <div className="comparison-container glass-panel" style={{ padding: 0 }}>
             <table className="comparison-table">
               <thead>
                 <tr>
