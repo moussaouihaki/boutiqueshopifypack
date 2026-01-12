@@ -259,24 +259,19 @@ export default function Home() {
             <p>Notre équipe vous répond sous 24h.</p>
           </div>
 
-          <div style={{ maxWidth: '600px', margin: '0 auto' }}>
-            <form className="glass-panel" style={{ textAlign: 'left' }}>
-              <div className="form-group">
-                <label className="form-label">Votre Email</label>
-                <input type="email" placeholder="exemple@email.com" className="form-input" />
-              </div>
-              <div className="form-group">
-                <label className="form-label">Sujet</label>
-                <input type="text" placeholder="J'ai une question sur..." className="form-input" />
-              </div>
-              <div className="form-group">
-                <label className="form-label">Message</label>
-                <textarea placeholder="Votre message..." className="form-textarea"></textarea>
-              </div>
-              <button type="button" className="btn btn-primary" style={{ width: '100%' }}>
-                Envoyer le message
-              </button>
-            </form>
+          <div style={{ maxWidth: '600px', margin: '0 auto', textAlign: 'center' }}>
+            <div className="glass-panel">
+              <p style={{ marginBottom: '2rem' }}>
+                Besoin d'aide pour installer votre pack ou une question avant d'acheter ?<br />
+                Notre équipe est là pour vous accompagner.
+              </p>
+              <a href="mailto:parisportifvip@outlook.com" className="btn btn-primary" style={{ display: 'inline-flex', alignItems: 'center', gap: '0.5rem' }}>
+                ✉️ Envoyer un email
+              </a>
+              <p style={{ fontSize: '0.9rem', color: '#64748b', marginTop: '1.5rem', marginBottom: 0 }}>
+                Réponse garantie sous 24h.
+              </p>
+            </div>
           </div>
         </div>
       </section>
