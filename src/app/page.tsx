@@ -265,7 +265,7 @@ export default function Home() {
                 Besoin d'aide pour installer votre pack ou une question avant d'acheter ?<br />
                 Notre équipe est là pour vous accompagner.
               </p>
-              <a href="mailto:parisportifvip@outlook.com" className="btn btn-primary" style={{ display: 'inline-flex', alignItems: 'center', gap: '0.5rem' }}>
+              <a href="mailto:shoppack@proton.me" className="btn btn-primary" style={{ display: 'inline-flex', alignItems: 'center', gap: '0.5rem' }}>
                 ✉️ Envoyer un email
               </a>
               <p style={{ fontSize: '0.9rem', color: '#64748b', marginTop: '1.5rem', marginBottom: 0 }}>
